@@ -1,0 +1,2 @@
+plink2 --bfile /scratch/eheenken/Rhesus_macaque/preliminary_analyses/autosomal_GT.demography.accessible \
+ --make-king-table
