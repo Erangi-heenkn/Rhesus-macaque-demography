@@ -1,4 +1,4 @@
-########################### PCA analysis ####################################
+################################ PCA analysis ####################################
 
 sbatch -n 10 -p htc -c 1 -N 1 -q public -t 4:00:00 \ 
 --job-name PCA_demographic \ 
@@ -14,7 +14,7 @@ Plink --bfile autosomal_GT.demography.accessible --out pca_demographic --pca 20
 
 
 
-######################### Admixture ##########################################
+################################ Admixture ##########################################
 #!/bin/bash
 #SBATCH -N 1        	# number of nodes
 #SBATCH -c 8        	# number of cores
@@ -34,4 +34,38 @@ for K in {1..5}; do
 done
 
 
-######################### Fst #########################################
+
+##################################### Fst #############################################
+
+ml vcftools 
+
+vcftools --vcf ../../autosomal_GT.demography.accessible.vcf \
+--weir-fst-pop Chinese.pop.txt --weir-fst-pop Indian.pop.txt --out fst.rhesus.demog
+
+
+
+#################################### Relatedness #######################################
+
+plink2 --bfile /scratch/eheenken/Rhesus_macaque/preliminary_analyses/autosomal_GT.demography.accessible \
+ --make-king-table
+
+
+
+###################################### sfs ###########################################
+
+#!/bin/bash
+#SBATCH -N 1        	# number of nodes
+#SBATCH -c 10        	# number of cores
+#SBATCH -t 00-04:00:00   # time in d-hh:mm:ss
+#SBATCH -p highmem      	# partition
+#SBATCH -q public   	# QOS
+#SBATCH -o slurm.%j.out # file to save job's STDOUT (%j = JobId)
+#SBATCH -e slurm.%j.err # file to save job's STDERR (%j = JobId)
+ 
+ 
+cd /scratch/eheenken/Rhesus_macaque/preliminary_analyses/sfs/easySFS
+ 
+#./easySFS.py -i ../../../../autosomal_GT.demography.accessible.vcf -p pops_file.txt #--preview -a
+#--proj 20,20
+ 
+./easySFS.py -i ../../../../autosomal_GT.demography.accessible.vcf -p pops_file.txt -a \ --proj 20,20 -f
