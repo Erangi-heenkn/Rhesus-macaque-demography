@@ -14,7 +14,7 @@ module load mamba/latest
 source activate dadiENV
 
 for i in $(seq 1 100); do
-/home/eheenken/.conda/envs/dadiENV/bin/python3 new.dadiBest.Asym.py -outFile ./best.fit.Asym.size2.txt
+/home/eheenken/.conda/envs/dadiENV/bin/python3 dadiBest.SymMig.py -outFile ./best.fit.SymMig.txt
 done
 
 
