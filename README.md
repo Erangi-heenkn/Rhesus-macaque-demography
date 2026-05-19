@@ -13,9 +13,9 @@ Erangi J. Heenkenda, Cyril J. Versoza, John W. Terbot II, Vivak Soni, Gabriella 
 >>>MSMC2
 This folder contains files used to run MSMC2 demographic inference
 - vcf2mulithetsep-v0.04.pl and README-vcf2multihetsep.txt: for input file preparation from Terbot et al.2025
-- MSMC2.sh - script to run MSMC2 using the prepared input files from the Perl script
-- input.gen.sh - script for running the Perl script that generates MSMC2 input files
-- msmc2.run.sh - script to run MSMC2 on the generated input file using the above Perl script
+- MSMC2.sh: script to run MSMC2 using the prepared input files from the Perl script
+- input.gen.sh: script for running the Perl script that generates MSMC2 input files
+- msmc2.run.sh: script to run MSMC2 on the generated input file using the above Perl script
 ```
 
 ```txt
