@@ -1,4 +1,3 @@
-##################################### Fst #############################################
 #!/bin/bash
 #SBATCH -N 1        	# number of nodes
 #SBATCH -c 8        	# number of cores
