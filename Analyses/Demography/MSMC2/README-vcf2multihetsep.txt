@@ -1,3 +1,5 @@
+**Following README file for the perl script is from Terbot et al. 2025 (https://github.com/jwterbot2/ayeaye_demography/tree/main/MSMC2)**
+
 ## README for vcf2multihetsep-vXXXX.pl
 
 This is a perl script which helps to convert a vcf file into the input format used by MSMC2.
