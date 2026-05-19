@@ -49,4 +49,12 @@ this folder contains files used to run fastsimcoal2 demograpgic inference using 
 -
 ```
 
-**preliminary**
+**Population_structure**
+```txt
+this folder contains scripts used to run PCA and admixture analyses
+```
+
+**summary_statistics**
+```txt
+this folder contains example scripts used to generate summary stats (SFS,FSTand LD) from emprirical and simulated data
+```
