@@ -1,3 +1,6 @@
+### Following  perl script is adaptoed from Terbot et al. 2025 (https://github.com/jwterbot2/ayeaye_demography/tree/main/MSMC2) ###
+--------------------------------------------------------------------------------------------------------------------------------------
+
 #!/usr/bin/perl
 use strict;
 use warnings;
