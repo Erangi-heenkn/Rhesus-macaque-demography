@@ -1,5 +1,3 @@
-###################################### sfs ###########################################
-
 #!/bin/bash
 #SBATCH -N 1        	# number of nodes
 #SBATCH -c 10        	# number of cores
