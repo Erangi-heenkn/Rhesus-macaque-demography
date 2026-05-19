@@ -8,7 +8,7 @@
 #SBATCH -e slurm.%j.err # file to save job's STDERR (%j = JobId)
  
  
-cd /scratch/eheenken/Rhesus_macaque/preliminary_analyses/sfs/easySFS
+cd /scratch/Rhesus_macaque/sfs/easySFS
  
 #./easySFS.py -i ../../../../autosomal_GT.demography.accessible.vcf -p pops_file.txt #--preview -a
 #--proj 20,20
