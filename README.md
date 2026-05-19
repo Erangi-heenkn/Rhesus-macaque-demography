@@ -8,7 +8,30 @@ Erangi J. Heenkenda, Cyril J. Versoza, John W. Terbot II, Vivak Soni, Gabriella 
 
 
 **Demography**
-    
+
+```txt
+>>>MSMC2
+this folder contains files used to run MSMC2 demograpgic inference
+- vcf2mulithetsep-v0.04.pl and README-vcf2multihetsep.txt: for input file preparation from Terbot et al.2025
+- MSMC2.sh - script to run MSMC2 using the preared input files from perl script
+```
+
+```txt
+>>>StairwayPlot2
+this folder contains files used to run Stairway Plot2 demograpgic inference
+-Chinese_fold.blueprint and Indian_fold.blueprint:
+- StairwayPlot.sh -script to run the analysis
+```
+
+```txt
+>>>fastsimcoal2
+this folder contains files used to run fastsimcoal2 demograpgic inference
+- estimation_files/: this folder contains .est and .tpl files detailing the models tested and the initial parameter ranges during parameter estimation
+-
+-
+-
+```
+
 ```txt
 >>>DADI
 this folder contains files used to run ∂a∂i demograpgic inference
@@ -16,11 +39,4 @@ this folder contains files used to run ∂a∂i demograpgic inference
 - PortickPipeline.Results_Summary_Extended.csv and PortickPipeline.Results_short_Extended.csv: results from Portick pipeline
 - dadiBest.SymMig.py and best.fit.dadi.sh: Rerun dadi on the bestfit model from Portick pipeline; results in dadi_empirical_parameters.txt
 - rhesus.dadi_bestFit_msprime.py:  python script for simulating the best fitting dadi model in msprime
-```
-
-```txt
->>>MSMC2
-this folder contains files used to run MSMC2 demograpgic inference
-- vcf2mulithetsep-v0.04.pl and README-vcf2multihetsep.txt: for input file preparation from Terbot et al.2025
-- MSMC2.sh - script to run MSMC2 using the preared input files from perl script
 ```
