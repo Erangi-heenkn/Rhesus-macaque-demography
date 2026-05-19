@@ -1,4 +1,5 @@
 Following README file for the perl script is from Terbot et al. 2025 (https://github.com/jwterbot2/ayeaye_demography/tree/main/MSMC2)
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 ## README for vcf2multihetsep-vXXXX.pl
 
