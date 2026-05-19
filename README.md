@@ -12,6 +12,8 @@ Erangi J. Heenkenda, Cyril J. Versoza, John W. Terbot II, Vivak Soni, Gabriella 
 ```txt
 >>>DADI
 this folder contains files used to run dadi inference
-- File to run the Portik pipeline on 2D SFS are Optimize_Functions.py, Models_2D.py and dadi_Run_2D_set.py
-- Results from Portick pipeline files are PortickPipeline.Results_Summary_Extended.csv and PortickPipeline.Results_short_Extended.csv
-- Rerun dadi on the bestfit model from Portick pipeline: scripts to run are dadiBest.SymMig.py and best.fit.dadi.sh; results in dadi_empirical_parameters.txt
+- 2D SFS are Optimize_Functions.py, Models_2D.py and dadi_Run_2D_set.py : files to run the Portik pipeline
+- PortickPipeline.Results_Summary_Extended.csv and PortickPipeline.Results_short_Extended.csv: results from Portick pipeline
+- dadiBest.SymMig.py and best.fit.dadi.sh: Rerun dadi on the bestfit model from Portick pipeline; results in dadi_empirical_parameters.txt
+- rhesus.dadi_bestFit_msprime.py:  python script for simulating the best fitting dadi model in msprime
+```
