@@ -11,7 +11,7 @@
  
 module load admixture/1.3.0
  
-cd /scratch/eheenken/Rhesus_macaque/preliminary_analyses/admix
+cd /scratch/Rhesus_macaque/preliminary_analyses/admix
  
 for K in {1..5}; do
  admixture --cv autosomal_GT.demography.accessible.bed $K | tee log${K}.out
