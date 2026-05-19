@@ -26,7 +26,8 @@ this folder contains files used to run Stairway Plot2 demograpgic inference
 ```txt
 >>>fastsimcoal2
 this folder contains files used to run fastsimcoal2 demograpgic inference
-- estimation_files/: this folder contains .est and .tpl files detailing the models tested and the initial parameter ranges during parameter estimation
+- estimation_files/: this folder contains .est and .tpl files detailing the models tested and the initial
+  parameter ranges during parameter estimation
 -
 -
 -
@@ -37,7 +38,8 @@ this folder contains files used to run fastsimcoal2 demograpgic inference
 this folder contains files used to run ∂a∂i demograpgic inference
 - 2D SFS are Optimize_Functions.py, Models_2D.py and dadi_Run_2D_set.py : files to run the Portik pipeline
 - PortickPipeline.Results_Summary_Extended.csv and PortickPipeline.Results_short_Extended.csv: results from Portick pipeline
-- dadiBest.SymMig.py and best.fit.dadi.sh: Rerun dadi on the bestfit model from Portick pipeline; results in dadi_empirical_parameters.txt
+- dadiBest.SymMig.py and best.fit.dadi.sh: Rerun dadi on the bestfit model from Portick pipeline;
+  results in dadi_empirical_parameters.txt
 - rhesus.dadi_bestFit_msprime.py:  python script for simulating the best fitting dadi model in msprime
 ```
 
