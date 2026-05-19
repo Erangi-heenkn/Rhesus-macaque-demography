@@ -33,7 +33,7 @@ this folder contains files used to run fastsimcoal2 demograpgic inference
 ```
 
 ```txt
->>>DADI
+>>>∂a∂i
 this folder contains files used to run ∂a∂i demograpgic inference
 - 2D SFS are Optimize_Functions.py, Models_2D.py and dadi_Run_2D_set.py : files to run the Portik pipeline
 - PortickPipeline.Results_Summary_Extended.csv and PortickPipeline.Results_short_Extended.csv: results from Portick pipeline
@@ -54,7 +54,7 @@ this folder contains files used to run fastsimcoal2 demograpgic inference using 
 this folder contains scripts used to run PCA and admixture analyses
 ```
 
-**summary_statistics**
+**Summary_statistics**
 ```txt
 this folder contains example scripts used to generate summary stats (SFS,FSTand LD) from emprirical and simulated data
 ```
