@@ -17,3 +17,10 @@ this folder contains files used to run ∂a∂i demograpgic inference
 - dadiBest.SymMig.py and best.fit.dadi.sh: Rerun dadi on the bestfit model from Portick pipeline; results in dadi_empirical_parameters.txt
 - rhesus.dadi_bestFit_msprime.py:  python script for simulating the best fitting dadi model in msprime
 ```
+
+```txt
+>>>MSMC2
+this folder contains files used to run MSMC2 demograpgic inference
+- vcf2mulithetsep-v0.04.pl and README-vcf2multihetsep.txt: for input file preparation from Terbot et al.2025
+- MSMC2.sh - script to run MSMC2 using the preared input files from perl script
+```
