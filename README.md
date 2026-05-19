@@ -40,3 +40,13 @@ this folder contains files used to run ∂a∂i demograpgic inference
 - dadiBest.SymMig.py and best.fit.dadi.sh: Rerun dadi on the bestfit model from Portick pipeline; results in dadi_empirical_parameters.txt
 - rhesus.dadi_bestFit_msprime.py:  python script for simulating the best fitting dadi model in msprime
 ```
+
+```txt
+>>>alternate_mu.rate
+this folder contains files used to run fastsimcoal2 demograpgic inference using the alternative mutation rate of 1.49e-8
+-
+-
+-
+```
+
+**preliminary**
