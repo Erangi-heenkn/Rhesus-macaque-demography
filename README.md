@@ -30,9 +30,7 @@ This folder contains files used to run Stairway Plot2 demographic inference
 This folder contains files used to run fastsimcoal2 demographic inference
 - estimation_files/: this folder contains .est and .tpl files that detail the models tested and the initial
   parameter ranges used during parameter estimation
--
--
--
+- fsc.M4.1.msprime.py: Python script for simulating the best fitting fastsimcoal2 model in msprime
 ```
 
 ```txt
