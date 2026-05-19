@@ -21,8 +21,8 @@ This folder contains files used to run MSMC2 demographic inference
 ```txt
 >>>StairwayPlot2
 This folder contains files used to run Stairway Plot2 demographic inference
-- Chinese_fold.blueprint and Indian_fold.blueprint:
-- StairwayPlot.sh -script to run the analysis
+- Chinese_fold.blueprint and Indian_fold.blueprint: input files for the Stairway Plot2
+- StairwayPlot.sh: script to run the Stairway Plot2
 ```
 
 ```txt
