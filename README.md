@@ -38,16 +38,16 @@ This folder contains files used to run fastsimcoal2 demographic inference
 This folder contains files used to run ∂a∂i demographic inference
 - Optimize_Functions.py, Models_2D.py and dadi_Run_2D_set.py: files to run the Portik pipeline
 - PortickPipeline.Results_Summary_Extended.csv and PortickPipeline.Results_short_Extended.csv: results from the Portick pipeline
-- dadiBest.SymMig.py and best.fit.dadi.sh: Rerun ∂a∂i on the bestfit model from Portick pipeline;
+- dadiBest.SymMig.py and best.fit.dadi.sh: Rerun ∂a∂i on the bestfit model from the Portick pipeline;
   results in dadi_empirical_parameters.txt
 - rhesus.dadi_bestFit_msprime.py: Python script for simulating the best fitting ∂a∂i model in msprime
 ```
 
 ```txt
 >>>alternate_mu.rate
-This folder contains files used to run fastsimcoal2 demographic inference using the alternative mutation rate of 1.49e-8
+This folder contains files used to run fastsimcoal2 demographic inference with the alternative mutation rate of 1.49e-8
 - best.fit.fsc.est and best.fit.fsc.tpl: input files using the best fit model from previous fastsimcoal2 runs
-- msprime.alt.mu.py: Python script for simulating the best fitting fastsimcoal2 model with alternative muration rate in msprime
+- msprime.alt.mu.py: Python script for simulating the best fitting fastsimcoal2 model with the alternative mutation rate in msprime
 ```
 
 **Population_structure**
@@ -57,5 +57,5 @@ This folder contains scripts used to run PCA and admixture analyses
 
 **Summary_statistics**
 ```txt
-This folder contains example scripts used to generate summary stats (SFS,FSTand LD) from emprirical and simulated data
+This folder contains example scripts used to generate summary stats (SFS, FST and LD) from empirical and simulated data
 ```
