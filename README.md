@@ -47,8 +47,7 @@ This folder contains files used to run ∂a∂i demographic inference
 >>>alternate_mu.rate
 This folder contains files used to run fastsimcoal2 demographic inference using the alternative mutation rate of 1.49e-8
 - best.fit.fsc.est and best.fit.fsc.tpl: input files using the best fit model from previous fastsimcoal2 runs
--
--
+- msprime.alt.mu.py: Python script for simulating the best fitting fastsimcoal2 model with alternative muration rate in msprime
 ```
 
 **Population_structure**
